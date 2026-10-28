@@ -1,0 +1,23 @@
+
+[
+  {
+    "vm_id": "vm-worker-1",
+    "host": "A",
+    "url": "http://127.0.0.1:8001"
+  },
+  {
+    "vm_id": "vm-worker-2",
+    "host": "A",
+    "url": "http://127.0.0.1:8002"
+  },
+  {
+    "vm_id": "vm-worker-3",
+    "host": "B",
+    "url": "http://127.0.0.1:8003"
+  },
+  {
+    "vm_id": "vm-worker-4",
+    "host": "B",
+    "url": "http://127.0.0.1:8004"
+  }
+]

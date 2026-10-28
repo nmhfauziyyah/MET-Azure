@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# SSH Keys (PENTING: Jangan upload kunci privat ke GitHub!)
+key/
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+logs/
+*.log
+
+# IDE settings & OS files
+.DS_Store
+Thumbs.db
+.idea/
