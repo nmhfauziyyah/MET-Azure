@@ -45,11 +45,19 @@ python master.py --config workers.json --manifest data/manifest.csv \
   --images data/images --algo BOTH --limit 100 --label baseline
 ```
 
+![hasil 1](assets/071-t4.png)
+![hasil 1](assets/072-t4.png)
+![hasil 1](assets/073-t4.png)
+
 3. Uji Beban 300 Task (T5):
 ```bash
 python master.py --config workers.json --manifest data/manifest.csv \
   --images data/images --algo BOTH --limit 300 --label load_300
 ```
+
+![hasil 1](assets/081-t5.png)
+![hasil 1](assets/082-t5.png)
+![hasil 1](assets/083-t5.png)
 
 4. Setelah Resize VM (T6):
 ```bash
@@ -57,11 +65,17 @@ python master.py --config workers.json --manifest data/manifest.csv \
   --images data/images --algo MET --limit 100 --label setelah_resize
 ```
 
+![hasil 1](assets/091-t6.png)
+![hasil 1](assets/092-t6.png)
+
 5. Setelah Stop Satu VM (T7):
 ```bash
 python master.py --config workers.json --manifest data/manifest.csv \
   --images data/images --algo MET --limit 100 --label failover
 ```
+![hasil 1](assets/0101-t7.png)
+![hasil 2](assets/0102-t7.png)
+![hasil 3](assets/0103-t7.png)
 
 
 
